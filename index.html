@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Cajero Automatico</title>
+</head>
+
+<body>
+    <main id="screen">
+        <img src="scanlines.png" id="scan">
+        <img src="bezel.png" id="bezel">
+    </main>
+        <div class="content">
+            <h1>Cajero Automatico</h1>
+            <form onsubmit="login(event)">
+                <div class="input-group">
+                    <label for="username">Usuario</label>
+                    <input type="text" id="username"class="box" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Clave</label>
+                    <input type="password" id="password" class="box" name="password" required>
+                    <br>
+                    <br>
+                </div>
+                <button type="submit" class="login-button" onclick="login()">Acceder</button>
+            
+                <p id="msj"></p>
+            </form>
+        </div>
+        
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Transacciones</title>
+</head>
+<body>
+    <main id="screen">
+        <img src="scanlines.png" id="scan">
+        <img src="bezel.png" id="bezel">
+        
+
+
+    <div id="content2">
+        <h1>Transacciones</h1>
+            <button type="button" id="btnConsultar" class="box2" onclick="checkBalance()"><h3>Consultar</h3></button>
+            <button type="button" id="btnRetirar" onclick="withdraw()" class="box2"><h3>Retirar</h3></button>
+            <button type="button" id="btnAgregar" onclick="deposit()" class="box2"><h3>Agregar</h3></button>
+            <button type="button" id="btnSalir" onclick="logout()" class="box2">Salir</button>
+    <div id="content3">
+            </div>
+        </div>
+    
+    </main>
+    <script src="main.js"></script>
+    
+</body>
+</html>

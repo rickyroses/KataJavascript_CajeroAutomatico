@@ -1,0 +1,114 @@
+.vt323-regular {
+    font-family: "VT323", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#screen {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background-color: green;
+}
+
+#scan, #bezel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    /* pointer-events: none; */
+}
+
+#scan{
+    opacity: 70%;
+
+}
+
+.content{
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    position: absolute;
+    font-family: VT323;
+    color: rgb(93, 253, 0);
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgb(150, 167, 124), 0 0 1em rgb(150, 167, 124), 0 0 0.2em rgb(150, 167, 124);
+}
+
+#content2{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    position: absolute;
+    font-family: VT323;
+    color: rgb(93, 253, 0);
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgb(150, 167, 124), 0 0 1em rgb(150, 167, 124), 0 0 0.2em rgb(150, 167, 124);
+}
+
+#account, #pin{
+    font-family: VT323;
+    background-color: green;
+    color: rgb(93, 253, 0);
+    text-shadow: 1px 1px 2px rgb(150, 167, 124), 0 0 1em rgb(150, 167, 124), 0 0 0.2em rgb(150, 167, 124);
+}
+
+.login-button{
+    font-family: VT323;
+    background-color: green;
+    color: rgb(93, 253, 0);
+    text-shadow: 1px 1px 2px rgb(150, 167, 124), 0 0 1em rgb(150, 167, 124), 0 0 0.2em rgb(150, 167, 124);
+}
+
+#consultar, #retirar, #agregar{
+    font-family: VT323;
+    text-align: center;
+    background-color: green;
+    color: rgb(93, 253, 0);
+    text-shadow: 1px 1px 2px rgb(150, 167, 124), 0 0 1em rgb(150, 167, 124), 0 0 0.2em rgb(150, 167, 124);
+}
+
+.box {
+    width: auto;
+    height: 30px;
+    margin-top: 5px;
+    background-color: green;
+    font-family: VT323;
+    color: rgb(93, 253, 0);
+}
+.box2 {
+    width: auto;
+    height: 50px;
+    margin-top: 5px;
+    background-color: green;
+    font-family: VT323;
+    color: rgb(93, 253, 0);
+}
+
+#salir {
+    font-family: VT323;
+    background-color: green;
+    color: rgb(93, 253, 0);
+    text-shadow: 1px 1px 2px rgb(150, 167, 124), 0 0 1em rgb(150, 167, 124), 0 0 0.2em rgb(150, 167, 124);
+}
+
+
+#messageDisplay {
+    margin-top: 20px;
+    font-weight: bold;
+}
